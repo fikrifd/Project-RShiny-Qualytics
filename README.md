@@ -35,22 +35,22 @@ install.packages(c("shiny", "bslib", "bsicons", "shinyjs",
 --------------------------------------------------------------------
 2. STRUKTUR DIREKTORI PROJECT
 --------------------------------------------------------------------
-Agar aplikasi berjalan tanpa error, pastikan struktur folder 
-tidak diubah:
+Agar aplikasi berjalan tanpa error, pastikan struktur folder tidak diubah:
 
-📂 Kelompok1_Project/
+```text
+📂 Project-RShiny-Kelompok1/
  ┣ 📂 R/                  --> Berisi modul logika (mod_upload.R, dll)
- ┣ 📂 www/                --> Direktori publik untuk aset visual
+ ┣ 📂 www/                --> Direktori publik untuk aset visual (opsional)
  ┣ 📄 app.R               --> File utama pusat kendali aplikasi
  ┣ 📄 global.R            --> Memuat library dan konfigurasi awal
  ┣ 📄 breastcancer.csv    --> Dataset sampel untuk uji coba
- ┗ 📄 README.txt          --> Petunjuk penggunaan aplikasi
-
+ ┗ 📄 README.md           --> Petunjuk penggunaan aplikasi
+``` 
 --------------------------------------------------------------------
 3. CARA MENJALANKAN APLIKASI
 --------------------------------------------------------------------
 1. Buka aplikasi RStudio.
-2. Buka project ini dengan mengklik file .Rproj (jika ada), ATAU 
+2. Buka project ini dengan mengklik file .Rproj, ATAU 
    jadikan folder utama ini sebagai Working Directory 
    (Session > Set Working Directory > To Source File Location).
 3. Buka file "app.R".
@@ -66,4 +66,3 @@ tidak diubah:
 - Centang beberapa prediktor medis (X) untuk melihat output 
   P-Value dan Odds Ratio.
 - Buka menu Evaluasi untuk melihat Uji VIF dan Hosmer-Lemeshow Test.
-====================================================================
