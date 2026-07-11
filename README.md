@@ -40,7 +40,7 @@ Agar aplikasi berjalan tanpa error, pastikan struktur folder tidak diubah:
 ```text
 📂 Project-RShiny-Kelompok1/
  ┣ 📂 R/                  --> Berisi modul logika (mod_upload.R, dll)
- ┣ 📂 www/                --> Direktori publik untuk aset visual (opsional)
+ ┣ 📂 www/                --> Direktori publik untuk aset visual
  ┣ 📄 app.R               --> File utama pusat kendali aplikasi
  ┣ 📄 global.R            --> Memuat library dan konfigurasi awal
  ┣ 📄 breastcancer.csv    --> Dataset sampel untuk uji coba
